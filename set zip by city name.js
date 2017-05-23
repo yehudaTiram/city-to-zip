@@ -3,7 +3,7 @@
 (function( $ ) {
 	var city_zip_json = (function () {
 		var city_zip_json = null;
-		var my_url = 'http://212.199.136.131/~meshekfrankorgan/wp-content/themes/Meshek-Frank/city-zip.json';
+		var my_url = '/wp-content/themes/site/city-zip.json';
 		$.ajax({
 			'async': false,
 			'global': false,
